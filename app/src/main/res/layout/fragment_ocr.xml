@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <SurfaceView
+            android:id="@+id/sfvCamera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="#aaFFFFFF"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</layout>
